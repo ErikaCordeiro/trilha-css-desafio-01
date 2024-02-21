@@ -1,24 +1,7 @@
-@import url('reset.css');
+@import url(reset.css);
 
 body {
   background-color: black;
-}
-
-h2 {
-  font-size: 2rem;
-  color: #33A8DB;
-  font-weight: bold;
-  letter-spacing: 4px;
-  text-transform: uppercase;
-  margin-bottom: 24px;
-}
-
-p {
-  color: white;
-}
-
-section {
-  margin: 100px auto;
 }
 
 .banner {
@@ -37,21 +20,6 @@ section {
   text-align: center;
 }
 
-.banner h1 {
-  font-size: 2.5rem;
-  font-weight: 900;
-  text-transform: uppercase;
-  color: transparent;
-  background: -webkit-linear-gradient(#33A8DB, #1472B7);
-  background-clip: text;
-  -webkit-background-clip: text;
-}
-
-.banner p {
-  font-size: 1.25rem;
-  margin: 16px 0 24px;
-}
-
 .banner .logo {
   background-color: rgba(0, 0, 0, .2);
   height: 260px;
@@ -67,6 +35,21 @@ section {
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+.banner h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: transparent;
+  background: -webkit-linear-gradient(#33A8DB, #1472B7);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.banner p {
+  font-size: 1.25rem;
+  margin: 16px 0 24px;
 }
 
 .banner .banner-content button {
@@ -90,7 +73,7 @@ section {
 #course-content .modules-list {
   margin: 24px 0;
 }
-
+  
 #course-content .modules-list .module {
   color: white;
   width: 530px;
@@ -115,7 +98,7 @@ section {
   border-bottom: 1px solid #33A8DB80;
   padding: 200px;
 }
-
+  
 #transform-world p {
   font-weight: 900;
   font-size: 2.5rem;
@@ -124,26 +107,43 @@ section {
   text-shadow: 3px 2px #33A8DB;
 }
 
+h2 {
+  font-size: 2rem;
+  color: #33A8DB;
+  font-weight: bold;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+  
+p {
+  color: white;
+}
+  
+section {
+  margin: 100px auto;
+}
+
 #professional-challenges {
   text-align: center;
   width: 800px;
 }
-
+  
 #professional-challenges img {
   margin: 32px 0;
 }
-
+  
 footer {
   padding: 60px 0;
   text-align: center;
   background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
   border-top: 1px solid #33A8DB80;
 }
-
+  
 footer .dio-logo {
   width: 300px;
 }
-
+  
 footer a {
   color: #33A8DB;
   font-weight: bold;
